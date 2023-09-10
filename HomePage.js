@@ -4,24 +4,24 @@ let timer = null;
 showSlides();
 
 function nextSlide() {
-  clearInterval(timer); 
+  clearInterval(timer);
   slideIndex++;
   showSlides();
-  timer = setInterval(nextSlide, 4000); 
+  timer = setInterval(nextSlide, 4000);
 }
 
 function prevSlide() {
   clearInterval(timer);
   slideIndex--;
   showSlides();
-  timer = setInterval(nextSlide, 4000); 
+  timer = setInterval(nextSlide, 4000);
 }
 
 function currentSlide(n) {
   clearInterval(timer);
   slideIndex = n - 1;
   showSlides();
-  timer = setInterval(nextSlide, 4000); 
+  timer = setInterval(nextSlide, 4000);
 }
 
 function showSlides() {
@@ -45,7 +45,6 @@ function showSlides() {
 }
 
 timer = setInterval(nextSlide, 4000);
-
 
 function updateCountdown() {
   var countDownDate = new Date("October 16, 2023 00:00:00").getTime();
@@ -72,5 +71,3 @@ function updateCountdown() {
 }
 
 var x = setInterval(updateCountdown, 1000);
-
-
