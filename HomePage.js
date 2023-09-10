@@ -48,7 +48,7 @@ timer = setInterval(nextSlide, 4000);
 
 
 function updateCountdown() {
-  var countDownDate = new Date("July 16, 2023 00:00:00").getTime();
+  var countDownDate = new Date("October 16, 2023 00:00:00").getTime();
   var now = new Date().getTime();
   var distance = countDownDate - now;
 
