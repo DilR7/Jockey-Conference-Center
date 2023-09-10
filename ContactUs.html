@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ContactUs.css" />
+    <link rel="stylesheet" href="ContactUsPageResponsive.css" />
+    <link rel="icon" href="Image/goverment.png" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav>
+      <div class="navbar">
+        <div class="link-left">
+          <div class="logo"><a href="HomePage.html"><img src="Image/goverment (1).png" alt=""></a></div>
+          <div class="tekss"><li><a href="HomePage.html">JCC</a></li></div>
+        </div>
+        <div class="link-right">
+          <li class="nav-item">
+            <a href="HomePage.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="EventPage.html" class="nav-link">Events</a>
+          </li>
+          <li class="nav-item">
+            <a href="PriceListPage.html" class="nav-link">Price List</a>
+          </li>
+          <li class="nav-item">
+            <a href="AboutUsPage.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="ContactUs.html" class="nav-link contactUs">Contact Us</a>
+          </li>
+        </div>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Content Section -->
+    <div class="container1">
+      <div class="box1">
+        <h1>CONTACT US</h1>
+        <p><a href="HomePage.html">Home</a> > Contact Us</p>
+      </div>
+    </div>
+
+    <div class="container2">
+      <div class="box2">
+        <div class="desc">
+          <div class="image"><img src="Image/phone-call (2).png" alt="" /></div>
+          <div class="txt">
+            <span>Phone</span>
+            <p>+62 853 1234 5678</p>
+          </div>
+        </div>
+        <div class="desc">
+          <div class="image"><img src="Image/mail (2).png" alt="" /></div>
+          <div class="txt">
+            <span>Email</span>
+            <p>jcc@gmail.com</p>
+          </div>
+        </div>
+        <div class="desc">
+          <div class="image"><img src="Image/location (3).png" alt="" /></div>
+          <div class="txt">
+            <span>Location</span>
+            <p>Jl. Gatot Subroto, Jakarta</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container3">
+      <div class="box3">
+        <div class="form">
+          <div class="left">
+            <iframe
+              src="https://www.google.com/maps/d/embed?mid=1COwR4P6MHVszeem4Szb7moVbfJc&hl=en_US&ehbc=2E312F"
+            ></iframe>
+          </div>
+          <div class="right">
+            <div class="group">
+              <input placeholder="‎" type="text" id="name" name="name" />
+              <label for="name">Name</label>
+            </div>
+            <div class="group">
+              <input placeholder="‎" type="email" id="email" name="email" />
+              <label for="email">Email</label>
+            </div>
+            <div class="group">
+              <input placeholder="‎" type="text" id="phone" name="phone" />
+              <label for="phone">Phone Number</label>
+            </div>
+            <div class="group">
+              <textarea
+                placeholder="‎"
+                id="message"
+                name="message"
+                rows="4"
+                required=""
+              ></textarea>
+              <label for="message">Message</label>
+            </div>
+            <div class="group1">
+              <div class="group1-top">
+                <label for="">Preferred Contact Method</label>
+              </div>
+              <div class="group1-bot">
+                <div class="group1-bot1">
+                  <input type="radio" name="method" id="phone1" />
+                  <label for="method">Phone</label>
+                </div>
+                <div class="group1-bot1">
+                  <input type="radio" name="method" id="email1" />
+                  <label for="method">Email</label>
+                </div>
+              </div>
+              <div class="button">
+                <button type="button" onclick="validate(event)"><p>Submit </p></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="footer-left">
+          <img src="Image/goverment (3).png" alt="" /><span>JCC</span>
+        </div>
+      <div class="footer-right">
+        <div class="footer-right1">
+          <span>Service</span>
+          <a href="AboutUsPage.html">About Us</a>
+          <a href="ContactUs.html">Contact Us</a>
+          <a href="#">Features</a>
+        </div>
+        <div class="footer-right1">
+          <span>Resources</span>
+          <a href="#">Apps</a>
+          <a href="#">Developer</a>
+          <a href="PriceListPage.html">Pricing</a>
+        </div>
+        <div class="footer-right1">
+          <span>Social Media</span>
+          <div class="logo-f">
+            <div class="logo-fb">
+              <img src="Image/facebook-app-symbol (1).png" alt="" />
+            </div>
+            <div class="logo-fb">
+              <img src="Image/instagram (4).png" alt="" />
+            </div>
+            <div class="logo-fb">
+              <img src="Image/twitter (3).png" alt="" />
+            </div>
+          </div>
+          <div class="form1">
+            <label for="">Newsletter Subs</label>
+            <div class="send">
+              <input type="email" /><button>
+                <img src="Image/send (5).png" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="Validation.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+<script src="Scroll.js"></script>
+  <script src="Burger.js"></script>
+</html>
