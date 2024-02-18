@@ -6,6 +6,7 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   text-decoration: none;
+  overflow-x: hidden;
 }
 :root {
   --text-color--: #fefce8;
@@ -224,7 +225,7 @@ nav {
 }
 
 .desc img {
-  width: 30%;
+  width: 40%;
 }
 
 .desc {
@@ -239,7 +240,7 @@ nav {
 .txt {
   font-weight: 500;
   font-size: 1.25rem;
-  width: 80px;
+  width: 100%;
 }
 
 .container4 {
@@ -254,12 +255,12 @@ nav {
   flex-direction: column;
   gap: 48px;
   padding: 60px 0;
+  width: fit-content;
 }
 
 .box4 h3 {
   color: #fefce8;
   font-size: 2rem;
-  margin-bottom: -18px;
 }
 
 .left {
@@ -268,7 +269,13 @@ nav {
   background-color: #fefce8;
   border-radius: 50%;
   display: flex;
+  justify-content: center;
   padding: 8px;
+}
+
+.left img {
+  width: 90%;
+  height: 90%;
 }
 
 .row1-4 {

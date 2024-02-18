@@ -66,6 +66,25 @@
     width: 100%;
   }
 
+  .txt {
+    font-weight: 500;
+    font-size: 1.25rem;
+    width: 100%;
+  }
+
+  .content1 {
+    display: flex;
+    gap: 10px;
+    width: 90%;
+    height: auto;
+  }
+
+  .row1-4 {
+    display: flex;
+    gap: 20px;
+    width: 105%;
+  }
+
   .gambar1 {
     width: 100%;
     flex-direction: row;
@@ -104,9 +123,14 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    gap: 24px;
   }
 
   .container {
+    flex-wrap: wrap;
+  }
+
+  .footer-left {
     flex-wrap: wrap;
   }
 
