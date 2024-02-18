@@ -52,6 +52,7 @@
 
   .card {
     width: 100%;
+    padding-bottom: 10px;
   }
 
   .card:hover .card__body {
